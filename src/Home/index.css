@@ -1,0 +1,12 @@
+.spinner-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.dishes-list-container {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  background-color: #f9f9f9;
+}

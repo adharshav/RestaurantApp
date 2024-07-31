@@ -1,0 +1,30 @@
+.tab-container {
+  display: flex;
+  overflow-x: auto;
+  box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  list-style-type: none;
+}
+
+.each-tab-item {
+  flex-shrink: 0;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab-category-button {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  padding-right: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.active-tab-item {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  font-weight: 600;
+}
